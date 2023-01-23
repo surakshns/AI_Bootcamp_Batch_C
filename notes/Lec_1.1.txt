@@ -1,1 +1,61 @@
-Welcome
+Git Basics
+
+praveen@LAPTOP-UTOVS0C6 MINGW64 /c/Development/AI_Bootcamp_Batch_C
+$ git init
+Initialized empty Git repository in C:/Development/AI_Bootcamp_Batch_C/.git/
+
+praveen@LAPTOP-UTOVS0C6 MINGW64 /c/Development/AI_Bootcamp_Batch_C (master)
+$ git add .
+
+praveen@LAPTOP-UTOVS0C6 MINGW64 /c/Development/AI_Bootcamp_Batch_C (master)
+$ ls
+Demo_1.1.txt  notes/  quiz/
+
+praveen@LAPTOP-UTOVS0C6 MINGW64 /c/Development/AI_Bootcamp_Batch_C (master)
+$ git add Demo_1.1.txt
+
+praveen@LAPTOP-UTOVS0C6 MINGW64 /c/Development/AI_Bootcamp_Batch_C (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Demo_1.1.txt
+        new file:   notes/Lec_1.1.txt
+        new file:   quiz/quiz_1.1.txt
+
+
+praveen@LAPTOP-UTOVS0C6 MINGW64 /c/Development/AI_Bootcamp_Batch_C (master)
+$ git commit -m "first commit"
+[master (root-commit) 20b5f3e] first commit
+ 3 files changed, 2 insertions(+)
+ create mode 100644 Demo_1.1.txt
+ create mode 100644 notes/Lec_1.1.txt
+ create mode 100644 quiz/quiz_1.1.txt
+
+praveen@LAPTOP-UTOVS0C6 MINGW64 /c/Development/AI_Bootcamp_Batch_C (master)
+$ git branch -M main
+
+praveen@LAPTOP-UTOVS0C6 MINGW64 /c/Development/AI_Bootcamp_Batch_C (main)
+$ git remote add origin https://github.com/itasworkshop/AI_Bootcamp_Batch_C.git
+
+praveen@LAPTOP-UTOVS0C6 MINGW64 /c/Development/AI_Bootcamp_Batch_C (main)
+$ git push -u origin main
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/itasworkshop/AI_Bootcamp_Batch_C.git/'
+
+praveen@LAPTOP-UTOVS0C6 MINGW64 /c/Development/AI_Bootcamp_Batch_C (main)
+$ git push -u origin main
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (7/7), 417 bytes | 417.00 KiB/s, done.
+Total 7 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/itasworkshop/AI_Bootcamp_Batch_C.git
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+
+
