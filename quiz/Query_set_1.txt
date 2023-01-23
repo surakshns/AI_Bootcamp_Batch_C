@@ -1,0 +1,5 @@
+1) WAQ to display employees name ending with letter 'n'?
+2) WAQ to display employees record who joined in December month?
+3) WAQ to display emplyoees record who doesn't have any manager?
+4) WAQ to display employees record with bonus, bonus will be salary+commission?
+5) WAQ to display whose salary is between 5000 and 10000?
