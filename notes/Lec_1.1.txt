@@ -1,5 +1,7 @@
 Git Basics
 
+1) For first time repo creation
+
 praveen@LAPTOP-UTOVS0C6 MINGW64 /c/Development/AI_Bootcamp_Batch_C
 $ git init
 Initialized empty Git repository in C:/Development/AI_Bootcamp_Batch_C/.git/
@@ -59,3 +61,13 @@ To https://github.com/itasworkshop/AI_Bootcamp_Batch_C.git
 Branch 'main' set up to track remote branch 'main' from 'origin'.
 
 
+2) For regular
+i) Get fresh copy
+ii) make changes and test
+iii) add changes in working directory
+
+git add . or name of the file with path
+
+iv) git commit -m "commit message"
+v)  Push the changes
+git push -u origin main

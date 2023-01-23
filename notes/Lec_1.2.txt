@@ -1,0 +1,33 @@
+Database --> MySQL
+
+Data --> collection of information
+DataBase --> DBMS --> the way we organise our data
+
+RDBMS --> Relational Database management system
+
+structure  --> Table[ rows and columns]
+				--> one table is logically connected to another table
+
+Example:-
+schema --> HR Schema
+
+Department
+Employees
+
+DEPT Table
+dept_id		dept_name		location	
+111			HR					Block_A
+222			IT					Block_A
+333			Finance			Block_B
+
+Employees Table
+emp_id		first_name		join_date		Salary 		dept_id
+123			Rajesh			12-Oct-22		50000			222
+134			Suraj				12-Oct-22		70000			222
+
+
+
+
+
+
+
