@@ -1,0 +1,5 @@
+1) WAQ to display counting of employees department wise?
+2) WAQ to display counting of employees year wise?
+3) WAQ to display avg employee salary department wise?
+4) WAQ to display most earning employee department wise?
+5) WAQ to display sum of bonus(salary+commission) year wise?

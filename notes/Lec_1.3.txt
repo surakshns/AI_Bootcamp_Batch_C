@@ -1,0 +1,37 @@
+Aggregate functions
+
+count()
+sum()
+avg()
+min()
+max()
+
+select department_id, count(*) 
+from employees 
+group by department_id
+order by department_id desc;
+
+Having clause
+difference between where and having?
+
+select department_id, count(*) 
+from employees 
+group by department_id
+having count(*) > 5;
+
+Possible to use where and having in same query?
+select department_id, count(*) 
+from employees 
+where department_id in (30,50,60)
+group by department_id
+having count(*) > 3;
+
+
+
+
+
+
+
+
+
+
