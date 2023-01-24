@@ -1,0 +1,5 @@
+1) WAQ to display employee counting based on location country wise?
+2) WQA to display eemployees those are earning less than Susan and from same location as of Susan.
+3) WAQ to display number of subordinates working under respective managers?
+4) WAQ to display monthly records in descending order of number of hired employees each month?
+5) WAQ to display record of highest earning employee in each department?
