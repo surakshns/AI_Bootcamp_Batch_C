@@ -1,5 +1,31 @@
 1) WAQ to display employees name ending with letter 'n'?
 2) WAQ to display employees record who joined in December month?
+select first_name, hire_date
+from employees
+where hire_date like '%-12-%';
+
+select first_name, hire_date
+from employees
+where month(hire_date)=12;
+
+select first_name, hire_date
+from employees
+where monthname(hire_date) like 'Dec%';
+
+select first_name, hire_date, date_format(hire_date,'%M')
+from employees
+where date_format(hire_date,'%M') like 'December';
+
+select first_name, hire_date, date_format(hire_date,'%m')
+from employees
+where date_format(hire_date,'%m')=12;
+
+
 3) WAQ to display emplyoees record who doesn't have any manager?
 4) WAQ to display employees record with bonus, bonus will be salary+commission?
 5) WAQ to display whose salary is between 5000 and 10000?
+6) WAQ to employees records thosa are working in new york?
+select e.first_name, d.department_name, l.city
+from employees e, departments d, locations l
+where e.department_id = d.department_id and d.location_id = l.location_id
+and l.city like 'Seattle';

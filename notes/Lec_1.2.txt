@@ -26,6 +26,14 @@ emp_id		first_name		join_date		Salary 		dept_id
 134			Suraj				12-Oct-22		70000			222
 
 
+SQL clauses sequnce
+select
+from
+where 
+group by
+having
+order by
+
 
 
 
