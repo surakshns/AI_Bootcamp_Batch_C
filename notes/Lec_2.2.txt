@@ -1,0 +1,36 @@
+Joins --> displaying records from multiple tables
+
+Inner Join
+Outer Join
+Right Outer Join
+Left Outer Join
+Self Join
+Cross Join
+
+1) cross join-->3*3 = 9 rows
+select e.first_name, d.department_name 
+from employees e,departments d;
+
+2) Inner Join
+select e.first_name, d.department_id , d.department_name 
+from employees e inner join departments d
+on e.department_id = d.department_id;
+
+3) Outer
+
+select e.first_name, d.department_id , d.department_name 
+from employees e right outer join departments d
+on e.department_id = d.department_id;
+
+Self Join
+WAQ to display emplyee with their manager name?
+
+select e.first_name, m.first_name
+from employees e, employees m
+where e.manager_id = m.employee_id;
+
+
+
+
+
+

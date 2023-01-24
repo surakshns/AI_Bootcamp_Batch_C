@@ -1,0 +1,21 @@
+Sub Query
+nested , query inside query
+
+Example:
+WAQ to dsiplay employees those are earning more than David?
+
+what is David salary? --> 15000
+
+select * from employees
+where salary > 15000
+
+select * from employees
+where salary > select salary from employees where first_name like 'David';
+
+where sub query returns one record ---> (>,<,=)
+select * from employees
+where salary > (select salary from employees where first_name like 'Patrick');
+
+where sub query returns more than one record ---> (in)
+select * from employees
+where salary in (select salary from employees where first_name like 'David');
