@@ -2,7 +2,27 @@
 2) WAQ to display counting of employees year wise?
 3) WAQ to display avg employee salary department wise?
 4) WAQ to display most earning employee department wise?
+
+select employee_id, first_name, department_id, salary 
+from employees
+where (department_id,salary) in (select department_id, max(salary)
+from employees
+group by department_id);
+
 5) WAQ to display sum of bonus(salary+commission) year wise?
 6) WAQ to display second highest earning employee record?
+
+select e.department_id, max(salary)
+from employees e
+where e.salary < (select max(salary)
+from  employees b
+where e.department_id = b.department_id)
+group by e.department_id;
+
 7) WAQ to display top 3 earning employees?
 8) WAQ to display top 3 earning employees department wise?
+
+select distinct *
+from employees e
+where 2 >= ( select count(distinct d.salary) from employees d
+where e.department_id = d.department_id and d.salary >= e.salary);

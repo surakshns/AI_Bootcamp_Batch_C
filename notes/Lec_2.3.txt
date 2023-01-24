@@ -1,0 +1,33 @@
+Pyhton
+
+Why Python?
+--> Versatile
+--> Easy to learn
+--> Interpretor
+--> Data visualization
+--> ML apps
+--> Automation[scripting]
+--> Web Devlopment
+--> Data Analysis work
+
+Disadvantages of using Python?
+--> please avoid
+
+Python is dynamic typed language
+>>> print('hello World')
+hello World
+>>> int a =10
+  File "<stdin>", line 1
+    int a =10
+        ^
+SyntaxError: invalid syntax
+>>> a = 10
+>>> a
+10
+>>> a = 'Praveen'
+>>> a
+'Praveen'
+>>> a = True
+>>> a
+True
+>>>
