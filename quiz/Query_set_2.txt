@@ -3,3 +3,6 @@
 3) WAQ to display avg employee salary department wise?
 4) WAQ to display most earning employee department wise?
 5) WAQ to display sum of bonus(salary+commission) year wise?
+6) WAQ to display second highest earning employee record?
+7) WAQ to display top 3 earning employees?
+8) WAQ to display top 3 earning employees department wise?
