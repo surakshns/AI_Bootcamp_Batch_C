@@ -1,0 +1,67 @@
+>>> mytup = (1,2,3,4,5)
+>>> mytup
+(1, 2, 3, 4, 5)
+>>> mytup[2]
+3
+>>> mytup[2] = 75
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'tuple' object does not support item assignment
+>>> mytup
+(1, 2, 3, 4, 5)
+>>> mytup = (1,2,3,4,'hello')
+>>> mytup
+(1, 2, 3, 4, 'hello')
+>>> mytup = (1,23,24,12,25,67)
+>>> mykeyval = {111:'apple',222:'banana',333:'mango'}
+>>> mykeyval[1]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+KeyError: 1
+>>> mykeyval[111]
+'apple'
+>>> mykeyval[333]
+'mango'
+>>> for i,j in mykeyval.items():
+...     print(i,j)
+...
+111 apple
+222 banana
+333 mango
+>>> for i,j in mykeyval.keys():
+... for i,j in mykeyval.keys():
+  File "<stdin>", line 2
+    for i,j in mykeyval.keys():
+    ^
+IndentationError: expected an indented block after 'for' statement on line 1
+>>> for i in mykeyval.keys():
+...     print(i)
+...
+111
+222
+333
+>>> for i in mykeyval.values():
+...     print(i)
+...
+apple
+banana
+mango
+>>> mykeyval
+{111: 'apple', 222: 'banana', 333: 'mango'}
+>>> mykeyval = {444:'peach'}
+>>> mykeyval
+{444: 'peach'}
+>>> mykeyval[333] = 'peach'
+>>> mykeyval
+{444: 'peach', 333: 'peach'}
+>>> mykeyval = {111:'apple',222:'banana',333:'mango'}
+>>> mykeyval[333] = 'peach'
+>>> mykeyval
+{111: 'apple', 222: 'banana', 333: 'peach'}
+>>> mykeyval.update({444:'peach'})
+>>> mykeyval
+{111: 'apple', 222: 'banana', 333: 'peach', 444: 'peach'}
+>>> mykeyval.update({444:'carrot'})
+>>> mykeyval
+{111: 'apple', 222: 'banana', 333: 'peach', 444: 'carrot'}
+>>>

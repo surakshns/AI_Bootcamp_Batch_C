@@ -13,6 +13,8 @@
 ['mango','banana','apple','peach']
 8) WAP to find out domain names from below email addresses.
 xyz@gmail.com
+xyz1@gmail.com
+xyz2@gmail.com
 abc@yahoo.com
 jkl@outlook.com
 dfg@mycomp.com

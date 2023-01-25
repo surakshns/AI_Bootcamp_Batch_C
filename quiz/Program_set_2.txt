@@ -1,0 +1,17 @@
+1) WAP to find out domain names from below email addresses.
+xyz@gmail.com
+xyz1@gmail.com
+xyz2@gmail.com
+abc@yahoo.com
+abct@yahoo.com
+abct@yahoo.com
+abcu@yahoo.com
+abcw@yahoo.com
+jkli@outlook.com
+dfg@mycomp.com
+2) WAP to sort students based on their marks
+{'Rajesh':45,'Suraj':37,'Tom':67,'David':82}
+3) WAP to sort given items and result should be sorted tupple
+(23,12,45,21,22,1,2,5)
+4) WAP to merge two tupples of your choice, input two tuples and output single tupple.
+
