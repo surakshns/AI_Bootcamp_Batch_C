@@ -1,0 +1,9 @@
+1) WAP to check if the given string is pallindrom or not using two methodologies at least, take string from user.
+2) Seperate below list for even items and odd items respectivly
+[2,34,12,44,55,23,77,67]
+3) Sort the below list using two methodologies at least
+[2,34,12,44,55,23,77,67]
+4) WAP to remove extra characters from given string
+
+'Hell$ everyone, hope$ you are having a beautiful day full $of joy and &learning'
+5) WAP to calculate diagonal sum of 2D matrix of your choice of your size.
