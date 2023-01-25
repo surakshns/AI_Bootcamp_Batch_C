@@ -7,3 +7,13 @@
 
 'Hell$ everyone, hope$ you are having a beautiful day full $of joy and &learning'
 5) WAP to calculate diagonal sum of 2D matrix of your choice of your size.
+6) WAP for finding the biggest number in below list using at least two methodologies
+[2,34,12,44,55,23,77,67]
+7) WAP to sort list items as per dictionary
+['mango','banana','apple','peach']
+8) WAP to find out domain names from below email addresses.
+xyz@gmail.com
+abc@yahoo.com
+jkl@outlook.com
+dfg@mycomp.com
+
