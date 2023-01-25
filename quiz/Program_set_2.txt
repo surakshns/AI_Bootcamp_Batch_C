@@ -14,4 +14,14 @@ dfg@mycomp.com
 3) WAP to sort given items and result should be sorted tupple
 (23,12,45,21,22,1,2,5)
 4) WAP to merge two tupples of your choice, input two tuples and output single tupple.
+5) create dictionary from
+name = ['raj','rajesh','john']
+marks = [83,85,96]
+6)marks = {   'raj':{'p':78,'c':86,'m':95},
+            'rajesh':{'p':48,'c':76,'m':55},
+            'tom':{'p':98,'c':86,'m':65}
+        }
+calculate average % subject wise.
+result1 = {'p':69,'c':72,'m':67}
+result2 = {'raj':78,'rajesh':72,'tom':67}
 
