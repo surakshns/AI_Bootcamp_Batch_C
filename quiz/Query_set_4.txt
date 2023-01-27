@@ -1,3 +1,15 @@
 1) WAP to discard duplicates in bellow phrase
 "Hey hope for best because hope is always something you can keep hope for but what else is you can keep other than hope"
 2) Word count of duplicates items in above phrase
+3) perfomr sorting of below set items
+{23,12,15,7,8,2,9}
+4) WAP to find consecutive even items from below set
+input --> {11,2,4,13,1,8,7,12,14}
+output --> {2,4} {12,14}
+5) Find common elements from two lists
+[1,2,23,54,11,67,98,55]
+[23,54,2,27,49,12,67,90]
+6) If Join operations in RDBMS has to perform on two sets considering as table data, how would you perform different varieties of operations?
+
+
+
