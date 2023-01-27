@@ -1,0 +1,3 @@
+1) WAP to discard duplicates in bellow phrase
+"Hey hope for best because hope is always something you can keep hope for but what else is you can keep other than hope"
+2) Word count of duplicates items in above phrase

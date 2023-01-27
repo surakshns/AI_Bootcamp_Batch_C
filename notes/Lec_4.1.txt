@@ -1,0 +1,43 @@
+Set --> unordered collection of unique items
+
+Microsoft Windows [Version 10.0.22621.1105]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\praveen>python
+Python 3.10.6 (tags/v3.10.6:9c7b4bd, Aug  1 2022, 21:53:49) [MSC v.1932 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> myset = {1,2,3,4,5}
+>>> myset
+{1, 2, 3, 4, 5}
+>>> myset = {1,2,3,4,5,5,5,5}
+>>> myset
+{1, 2, 3, 4, 5}
+>>> myset[1]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'set' object is not subscriptable
+>>> myset.add(6)
+>>> myset
+{1, 2, 3, 4, 5, 6}
+>>> myset.add(6)
+>>> myset
+{1, 2, 3, 4, 5, 6}
+>>> myset.discard(4)
+>>> myset
+{1, 2, 3, 5, 6}
+>>> myset.pop(5)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: set.pop() takes no arguments (1 given)
+>>> myset.pop()
+1
+>>> mylist = [1,2,3,4,5]
+>>> mylist.pop()
+5
+>>> mylist.pop()
+4
+>>> myset
+{2, 3, 5, 6}
+>>> myset.pop()
+2
+>>>
