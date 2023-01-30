@@ -10,6 +10,24 @@ output --> {2,4} {12,14}
 [1,2,23,54,11,67,98,55]
 [23,54,2,27,49,12,67,90]
 6) If Join operations in RDBMS has to perform on two sets considering as table data, how would you perform different varieties of operations?
+7) WAP to calculate grade of a student who scored 78 marks in exam following below rules
+90 -- 100 --> A
+80 -- 90 --> B
+70 -- 80 --> C
+otherwise fail.
+8) Perfom and verify and mention uses below git commands
+git init
+git status
+git checkout
+git clean
+git reset
+git log -n
+git commit
+git push
+git fork
+9) WAP to create a command based quiz using python with 5 MCQ's and determine Grade of student based on question 7 rules?
+
+
 
 
 
