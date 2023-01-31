@@ -1,0 +1,58 @@
+Microsoft Windows [Version 10.0.22621.1105]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\praveen>python
+Python 3.10.6 (tags/v3.10.6:9c7b4bd, Aug  1 2022, 21:53:49) [MSC v.1932 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> mylist = [1,2,3,4,5,6]
+>>> def evenodd(x):
+...     if x%2==0:
+...             return x
+...
+>>> result = filter(evenodd,mylist)
+>>>
+>>> result
+<filter object at 0x00000128540AAE00>
+>>> print(list(result))
+[2, 4, 6]
+>>> mylist = [1,2,3,4,5,6]
+>>> mylist
+[1, 2, 3, 4, 5, 6]
+>>> def square(x):
+...     return x**2
+...
+>>> square(5)
+25
+>>> result = map(square,mylist)
+>>> result
+<map object at 0x00000128540AADA0>
+>>> print(list(result))
+[1, 4, 9, 16, 25, 36]
+>>>
+>>>
+>>> def sum(i,j):
+...     return i+j
+...
+>>> result = map(sum,mylist)
+>>> result
+<map object at 0x00000128540AAC50>
+>>> print(list(result))
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: sum() missing 1 required positional argument: 'j'
+>>> def add(i,j):
+...     return i+j
+...
+>>> result = reduce(add,mylist)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'reduce' is not defined
+>>> from functools import reduce
+>>> result = reduce(add,mylist)
+>>> result
+21
+>>> mylist = [1]
+>>> result = reduce(add,mylist)
+>>> result
+1
+>>>
