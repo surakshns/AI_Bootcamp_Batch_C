@@ -1,1 +1,15 @@
 1) Find number of black queens in deckofcards file.
+
+df=spark.read.option("header","false")\
+    .option("delimiter","|")\
+    .option("inferSchema","true")\
+    .schema(
+        StructType(
+            [
+                StructField("Color",StringType()),
+                StructField("Suit",StringType()),
+						StructField("Type",StringType())
+            ]
+        )
+    )\
+    .text('/home/data/deckofcards.txt')
