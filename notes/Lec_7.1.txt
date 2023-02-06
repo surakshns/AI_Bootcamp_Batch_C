@@ -1,0 +1,7 @@
+PySpark
+
+Spark application
+1) Driver program(with main) --> command line
+2) context object(old API) or sparkSession object(new API)--> sparkSession object is available 'spark' 
+3) create DataFrame using sparkSession object
+4) DF is Tabular representation of your data
